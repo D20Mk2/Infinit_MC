@@ -1,0 +1,58 @@
+{
+    // 使用我们放入的模型文件：models/gun/xxx_geo.json。注意，不需要包含文件后缀，也不要包含开头的 "models/"。
+    "model": "xiaomantou:gun/ax50_geo",
+    // 使用我们放入的模型贴图：textures/gun/uv/xxx.png。注意，不需要包含文件后缀，也不要包含开头的 "textures/"。
+    "texture": "xiaomantou:gun/uv/ax50",
+    // 使用我们放入的背包 2D 贴图：textures/gun/slot/xxx.png。注意，不需要包含文件后缀，也不要包含开头的 "textures/"。
+    "slot": "xiaomantou:gun/slot/ax50_geo",
+    "hud": "xiaomantou:gun/hud/ax50_hud",
+    "muzzle_flash": {
+      // 枪口火焰贴图路径
+      "texture": "tacz:flash/common_muzzle_flash",
+      // 缩放系数
+      "scale": 1
+    },
+      // 调用的动画名，会在包目录下的 animations 文件夹中寻找，不建议为空
+  "animation": "xiaomantou:ax50",
+  // 指定使用缺省动画，可为空。如果上文指定的动画文件里缺少某个动画，如 draw 动画，则会从缺省动画拷贝。
+  // 值可为 rifle、pistol
+  "use_default_animation": "rifle",
+    "transform": {
+        "scale": {
+            // 第三人称手部
+            "thirdperson": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            // 掉落物
+            "ground": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            // 展示框
+            "fixed": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    // 第三人称持枪动画，直接填入default
+    "third_person_animation": "default",
+    "sounds": {
+        "shoot": "xiaomantou:ax50/ax50_shoot",
+        "shoot_3p": "xiaomantou:ax50/ax50_shoot_3p",
+        "silence": "xiaomantou:ax50/ax50_silence",
+        "silence_3p": "xiaomantou:ax50/ax50_silence_3p",
+        "bolt": "xiaomantou:ax50/ax50_bolt",
+        "inspect": "xiaomantou:ax50/ax50_inspect",
+        "inspect_empty": "xiaomantou:ax50/ax50_inspect_empty",
+        "reload_empty": "xiaomantou:ax50/ax50_reload_empty",
+        "reload_tactical": "xiaomantou:ax50/ax50_reload_tactical",
+        "draw": "xiaomantou:ax50/ax50_draw",
+        "put_away": "xiaomantou:ax50/ax50_put_away"
+    }
+    
+}

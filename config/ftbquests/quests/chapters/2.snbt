@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: ""
+	id: "134F7210213D92B4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["08A94CC699500206"]
+		description: ["Вот у тебя есть ресурсы дом, и что дальше?"]
+		id: "2C2D45BB98146069"
+		tasks: [{
+			id: "3936505C9718A867"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -3.5d
+	}]
+	title: "Глва 2 поздний лейт"
+}

@@ -1,0 +1,20 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 48
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "atea:mdx2s"
+  }
+}

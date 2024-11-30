@@ -1,0 +1,12 @@
+{
+    // 使用我们放入的背包 2D 贴图：textures/attachment/slot/xxx_slot.png。注意，不需要包含文件后缀，也不要包含开头的 "textures/"
+    "slot": "xiaomantou:attachment/slot/ax50_muzzle_slot",
+    // 使用我们放入的模型文件：models/gun/xxx_geo.json。注意，不需要包含文件后缀，也不要包含开头的 "models/"
+    "model": "xiaomantou:attachment/ax50_muzzle_geo",
+    // 使用我们放入的模型贴图：textures/attachment/uv/xxx_uv.png。注意，不需要包含文件后缀，也不要包含开头的 "textures/"
+    "texture": "xiaomantou:attachment/uv/ax50_muzzle_uv",
+    "sounds": {
+     "install": "tacz:attachments/muzzle_general",
+     "uninstall": "tacz:attachments/muzzle_general"
+  }
+}

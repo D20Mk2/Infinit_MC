@@ -1,0 +1,7 @@
+{
+  "weight": 0.2,
+  "recoil_modifier": {
+    "pitch": -0.25
+  },
+  "inaccuracy_addend": 0.25
+}

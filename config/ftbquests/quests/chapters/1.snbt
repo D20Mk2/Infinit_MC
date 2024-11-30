@@ -1,0 +1,601 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: ""
+	id: "48E8B75897197401"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Привет мой друг! Это &9Азур&r! Великий инженер, прошедший через многое. Я здесь, чтобы провести тебя через этот замечательный мир магии и технологии и &mБОЛИ&r!"]
+			id: "44CB629AEE2AB39B"
+			tasks: [{
+				id: "4832F3806494E48B"
+				title: "Начало"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44CB629AEE2AB39B"]
+			description: ["ОЙ! Что это у тебя с собой? Пустотное ядро! Я могу обменять его на что-то полезное. Выбор за тобой!"]
+			icon: "artifacts:villager_hat"
+			id: "7F4251F21E9CACC4"
+			rewards: [
+				{
+					count: 2
+					id: "5219096F3A26BD45"
+					item: "easy_villagers:villager"
+					type: "item"
+				}
+				{
+					id: "7646535761F55A60"
+					item: "artifacts:villager_hat"
+					type: "item"
+				}
+				{
+					id: "429EE02CA9317FC8"
+					item: "gobber2:gobber2_medallion_hero"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "628FF53B8860E4D7"
+					item: "kubejs:void_core_shard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "62EE80597E454EA3"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "480DB23F5F06C683"
+				item: "kubejs:void_core"
+				type: "item"
+			}]
+			title: "Крестьянин"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44CB629AEE2AB39B"]
+			description: ["ОЙ! Что это у тебя с собой? Пустотное ядро! Я могу обменять его на что-то полезное. Выбор за тобой!"]
+			icon: "mekanism:enrichment_chamber"
+			id: "350D2EBE50644456"
+			rewards: [
+				{
+					id: "48F68105DAD39A51"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+				{
+					id: "5EB2C9E1D3E4F2DB"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+				{
+					id: "7EB3D27018A9D42B"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "2DE8C792B8930965"
+					item: "mekanismgenerators:heat_generator"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "455E7CAA3CFAAE53"
+					item: "kubejs:void_core_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5A5833794162BE34"
+				item: "kubejs:void_core"
+				type: "item"
+			}]
+			title: "Инженер"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44CB629AEE2AB39B"]
+			description: ["ОЙ! Что это у тебя с собой? Пустотное ядро! Я могу обменять его на что-то полезное. Выбор за тобой!"]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 21
+					GunFireMode: "SEMI"
+					GunId: "emxarms:emx_pulse"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "6DEA99799274CBE4"
+			rewards: [
+				{
+					id: "09BF70CB315EA8FF"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 21
+							GunFireMode: "SEMI"
+							GunId: "emxarms:emx_pulse"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "402E3A1D504F35E3"
+					item: "tacz:gun_smith_table"
+					type: "item"
+				}
+				{
+					count: 80
+					id: "58FB4245510E539F"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "emxarms:402x31"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3465270CA81AD985"
+					item: {
+						Count: 1
+						id: "minecraft:turtle_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0646AFEAD57B65E5"
+					item: "kubejs:void_core_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "48D5445BF24FB09C"
+				item: "kubejs:void_core"
+				type: "item"
+			}]
+			title: "Стрелок"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2132666894246E9E"]
+			description: ["Осмотрись! Найди дерево и сломай его, я люблю дуб, пожалуй найди его (ломать на ЛКМ)"]
+			id: "1CC8535C1ADAA365"
+			rewards: [
+				{
+					count: 8
+					id: "0AE5E85020EA5276"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "4936FDA6F55DFC8F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2D2DE33AE768700E"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Наруби дров"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1CC8535C1ADAA365"]
+			description: ["Сделай что-то полезное для выживания! Вот моя рекомендация! (Рецепты смотреть на R - русскую К, а применения на U русскую Г)"]
+			id: "17284C783572F363"
+			rewards: [
+				{
+					id: "0F0D4F726D7499B9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "450C5FA30F336A54"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "290ABAD0DC12B33C"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					id: "678F746CE9F751BD"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "5E62A72756A0DE86"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "5FEEDC35E95C5981"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Переделай дерево"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17284C783572F363"]
+			description: ["&4&lНЕ КОПАЙ ПОД СЕБЯ!!!!&r&r, копай лесанкой до камня, он залегает не глубоко (кирка плохо копает землю, руки в помощь)"]
+			id: "7672AC62CD82898A"
+			rewards: [{
+				count: 64
+				id: "6324D2141ADBEBC0"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "016B2C0D9AB00E5A"
+					item: { Count: 16, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					id: "5E271345B5FF7937"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "423094089C42AD42"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A4B1CF107A387C1"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0797894DE73247D8"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Скала и камень"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7672AC62CD82898A"]
+			description: ["Дальше нам необходимо железо! Оно появляется неглубоко, однако в пещерах шанс его найти выше &mКак и схватить по морде&r"]
+			id: "4DF0A42E67ECDF7C"
+			rewards: [{
+				count: 16
+				id: "0105BE662DCFF9CF"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "34178EEB636929D9"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "5B799BE4BECA5B90"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Железный век!"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7672AC62CD82898A"]
+			description: ["Медь не так нужна, как железо (как искать уже знаешь)"]
+			id: "51B3CFCF6C37207B"
+			rewards: [
+				{
+					count: 16
+					id: "0AF0D027DA152426"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "4034EA82923D1A49"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2BFE9389E3C91348"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "03ECE100A391C2CD"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7672AC62CD82898A"]
+			description: ["Топливо, переплавляет 8 единиц ресурса в печи! Есть его аналог (пожарь бревно в печке)"]
+			id: "02ED378B9C10090B"
+			rewards: [
+				{
+					count: 32
+					id: "58DA1CB81BD292A3"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "00B4D63BFD0D4768"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "354143616BF16A0F"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44CB629AEE2AB39B"]
+			description: ["Оу… У тебя в инвентаре есть колечко, надень его! Оно дарит радость, позитив и БОЛЬ. Инвентарь открывается на E русскую У, там ты увидишь себя, там, где ты, есть в верхнем левом углу странный кружочек, нажми на него, а затем с Shift нажми на кольцо 7 проклятий"]
+			id: "2132666894246E9E"
+			rewards: [
+				{
+					id: "38EEC45039A04F70"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "5C285D1FAAE15DBE"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DD602C548FEEC87"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4DF0A42E67ECDF7C"]
+			description: ["Хммм, эта кирка прочнее, может копать алмазы, злато, красный камень и прочее. Внимательно посмотри на блок перед тобой тебе покажет наиболее эффективный инструмент для его копания."]
+			id: "638A7AB4EF435B9B"
+			rewards: [
+				{
+					id: "68CCCDE02EF2DD55"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "53A9F96716434F93"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:repair_talisman"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6618467D151F9196"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["638A7AB4EF435B9B"]
+			description: ["И? Квесты ведут тебя по пути к величию, они дарят тебе подарки. Ну если ты настаиваешь, ступай путник. &4&lНЕ ЗАБЫВАЙ ПРО НОВИЧКОВ!!!&r&r"]
+			id: "0ED406E08940411B"
+			rewards: [{
+				id: "4DE19B04F18B3972"
+				item: "minecraft:stick"
+				title: "ПАЛКА РУИНЫ"
+				type: "item"
+			}]
+			tasks: [{
+				id: "534F93515E7141A1"
+				title: "Я не новичок!"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0ED406E08940411B"]
+			id: "08A94CC699500206"
+			rewards: [{
+				auto: "invisible"
+				id: "10CD8364FCA92FC8"
+				ignore_reward_blocking: true
+				stage: ""
+				title: "Поздний лейт"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "49280246F709695B"
+				type: "checkmark"
+			}]
+			title: "Переход далее"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["638A7AB4EF435B9B"]
+			description: ["Дорогой камушек! Твёрдый!"]
+			id: "5E1A98FBFE9BEE93"
+			rewards: [
+				{
+					count: 5
+					id: "3169F84B05446E00"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "162A1AEAC033FBDB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "356B293D53AC85BA"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4DF0A42E67ECDF7C"]
+			description: ["Порталы… Вещь столь сложная и непонятная, что ради этого люди строили огромные заводы! Сколько одни такие врата стоили… Но не об этом! Портал в ад представляет собой конструкцию из 10 блоков обсидиана, расположенных чтобы окружить пространство 3 блока в высоту и 2 блока в ширину, углы не ставить, активируется огнивом. Однако обсидиан твёрдый, его точит только алмаз. Но мы умнее! У тебя есть ведро? Конечно есть! Найди озеро лавы, и одно ведро воды. Выкопай ямку в земле налей туда лаву, полей водой… и так послойно. Никакая кирка не нужна! Однако без оружия туда не иди, морду набьют знатно! Я предупредил!"]
+			id: "342BAF738ACE85E4"
+			rewards: [
+				{
+					count: 10
+					id: "32E3CC2B31F3EEE9"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "44EA5554B5A55F80"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "56FE3300AE4354B4"
+				title: "Добро пожаловать В АД"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["342BAF738ACE85E4"]
+			description: ["Незеритовый лом, главный компонент незеритового слитка. Чтобы его получить надо найти бастион пиглинов. Там в сундуках может быть как слиток незерита, незелитовый лом или шаблон улучшения брони."]
+			id: "213D89BD49F4FAAC"
+			rewards: [
+				{
+					count: 4
+					id: "001823E2F35F75EE"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "4EDE16569B2C7D6A"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			tasks: [{
+				id: "4B003A02DC39257C"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["342BAF738ACE85E4"]
+			description: ["Незеритовый лом, главный компонент незеритового слитка. Чтобы его получить надо найти бастион пиглинов. Там в сундуках может быть как слиток незерита, незелитовый лом или шаблон улучшения брони."]
+			id: "05ACF9359DA30EF6"
+			rewards: [
+				{
+					id: "1D3ACC00DD18B5F1"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "30404F5F62116B71"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			tasks: [{
+				id: "6C444B757972F2B7"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+	]
+	title: "Глава 1 Начало пути"
+}
